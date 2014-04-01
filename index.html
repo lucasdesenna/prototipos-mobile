@@ -1,0 +1,401 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Mockup - WS App</title>
+        <link rel="stylesheet" href="css/themes/default.css" />
+        <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+        <link rel="stylesheet" href="js/jquery/jquery.mobile-1.4.2.min.css">
+        <script src="js/jquery/jquery-2.1.0.min.js"></script>
+        <script src="js/jquery/jquery.mobile-1.4.2.min.js"></script>
+    </head>
+    <body>
+        <div data-role="page" id="welcome">
+            <div data-role="main" class="ui-content">
+                <form action="" method="post">
+                    <label for="basic" class="ui-hidden-accessible">E-mail:</label>
+                    <input type="text" name="name" id="login-email" value="" placeholder="E-mail"/>
+                    <label for="basic" class="ui-hidden-accessible">Senha:</label>
+                    <input type="text" name="name" id="login-password" value="" placeholder="Senha"/>
+                    <a href="#home" data-role="button" data-theme="b">Entrar</a>
+                    <a href="#create-account" data-role="button" data-theme="b">Criar Conta</a>
+                    <a href="#forgot-pass" data-role="button" data-theme="b">Recuperar Senha</a>
+                </form>
+            </div>
+        </div>
+
+        <div data-role="page" id="forgot-pass">
+            <div data-role="main" class="ui-content">
+                <p>Instruções para a recuperção da sua conta e senha serão enviados para o e-mail informado</p>
+                <form action="" method="post">
+                    <label for="basic" class="ui-hidden-accessible">E-mail:</label>
+                    <input type="text" name="name" id="login-email" value="" placeholder="E-mail"/>
+                    <a href="#popup-e-mail-sent" data-transition="slidedown" data-rel="dialog" data-role="button">Enviar</a>
+                    <a data-rel="back" data-role="button">Cancelar</a>
+                </form>
+            </div>
+        </div>
+
+        <div data-role="page" id="popup-e-mail-sent">
+            <div data-role="main" class="ui-content">
+                <p>E-mail enviado com sucesso!</p>
+                <p>Por favor, cheque sua caixa de entrada.</p>
+                <a href="#welcome" data-role="button">Ótimo</a>
+            </div>
+        </div>
+
+        <div data-role="page" id="pass-reset">
+            <div data-role="main" class="ui-content">
+                <form action="" method="post">
+                    <label for="basic" class="ui-hidden-accessible">Nova senha:</label>
+                    <input type="text" name="name" id="login-password" value="" placeholder="Nova Senha"/>
+                    <label for="basic" class="ui-hidden-accessible">Confirme sua nova senha</label>
+                    <input type="text" name="name" id="login-password" value="" placeholder="Confirme sua nova senha"/>
+                    <a href="#popup-pass-reset" data-transition="slidedown" data-rel="dialog" data-role="button">Alterar Senha</a>
+                </form>
+            </div>
+        </div>
+
+        <div data-role="page" id="popup-pass-reset">
+            <div data-role="main" class="ui-content">
+                <p>Sua senha foi redefinida com sucesso!</p>
+                <a href="#welcome" data-role="button">Ótimo</a>
+            </div>
+        </div>
+
+        <div data-role="page" id="create-account">
+            <div data-role="main" class="ui-content">
+                <form action="" method="post">
+                    <label for="basic" class="ui-hidden-accessible">E-mail:</label>
+                    <input type="text" name="name" id="login-email" value="" placeholder="E-mail"/>
+                    <label for="basic" class="ui-hidden-accessible">Confirme seu e-mail:</label>
+                    <input type="text" name="name" id="login-email" value="" placeholder="Confirme seu e-mail"/>
+                    <label for="basic" class="ui-hidden-accessible">Senha:</label>
+                    <input type="text" name="name" id="login-password" value="" placeholder="Senha"/>
+                    <label for="basic" class="ui-hidden-accessible">Confirme sua senha</label>
+                    <input type="text" name="name" id="login-password" value="" placeholder="Confirme sua senha"/>
+                    <a href="#popup-account-created" data-transition="slidedown" data-rel="dialog" data-role="button">Criar conta</a>
+                    <a data-rel="back" data-role="button">Cancelar</a>
+                </form>
+            </div>
+        </div>
+
+        <div data-role="page" id="popup-account-created">
+            <div data-role="main" class="ui-content">
+                <p>Parabéns, sua conta foi criada com sucesso!</p>
+                <a href="#welcome" data-role="button">Ótimo!</a>
+            </div>
+        </div>
+
+        <div data-role="page" id="home">
+            <div data-role="header">
+                <a href="#my-account" data-icon="home" data-transition="slidefade">Minha Pochete</a>
+                <h1>Projeto Pochete</h1>
+            </div>
+
+            <div data-role="main" class="ui-content">
+                <a href="#start-transaction" data-role="button" class="ui-disabled">
+                    <h3>Iniciar Comprar</h3>
+                </a>
+            </div>
+        </div>
+
+        <div data-role="page" id="start-transaction">
+            <div data-role="header">
+                <a data-rel="back" data-icon="back">Voltar</a>
+                <h1>Comprar</h1>
+                <a href="#my-account" data-icon="home">Minha Pochete</a>
+            </div>
+
+            <div data-role="main" class="ui-content">
+                <p>Content</p>
+            </div>
+
+            <div data-role="footer">
+                <h1>Footer</h1>
+            </div>
+        </div>
+
+        <div data-role="page" id="my-account">
+            <div data-role="header">
+                <a data-rel="back" data-icon="back">Voltar</a>
+                <h1>Minha Pochete</h1>
+            </div>
+          
+            <div data-role="main" class="ui-content">
+                <ul data-role="listview">
+                    <li>
+                        <a href="#profile" data-transition="slidefade">
+                            <h3>Minha Conta</h3>
+                            <p>Gerencie suas informações pessoais.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#history" data-transition="slidefade">
+                            <h3>Extrato</h3>
+                            <p>Um histórico completo de suas transações.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#my-cards" data-transition="slidefade">
+                            <h3>Meus Cartões</h3>
+                            <p>Adicione e remova cartões.</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#settings" data-transition="slidefade">
+                            <h3>Configurações</h3>
+                            <p>Opções de funcionamento do aplicativo</p>
+                        </a>
+                    </li>
+                    <li data-icon="arrow-l" data-theme="b">
+                        <a href="index.html">
+                            <h3>Sair</h3>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div data-role="page" id="profile">
+            <div data-role="header">
+                <a data-rel="back" data-icon="back">Voltar</a>
+                <h1>Minha Conta</h1>
+            </div>
+            <div data-role="main" class="ui-content">
+                <h3>Dados Pessoais</h3>
+                <ul data-role="listview" data-inset="true">
+                    <li>
+                        <a href="" data-transition="slidedown" data-rel="dialog">
+                            <p>Nome:</p>
+                            <h3>Manoel de Borba Gato</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-transition="slidedown" data-rel="dialog">
+                            <p>E-mail:</p>
+                            <h3>manoel.gato@jmail.com</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" data-transition="slidedown" data-rel="dialog">
+                            <p>Telefone:</p>
+                            <h3>+55 (11) 9-8753-6654</h3>
+                        </a>
+                    </li>
+                </ul>
+                <a href="#new-pass" data-transition="slidedown" data-rel="dialog" data-role="button" data-theme="b">Alterar Senha</a>
+                <a href="" data-role="button" data-theme="b">Apagar Conta</a>
+            </div>
+        </div>
+
+        <div data-role="page" id="new-pass">
+            <div data-role="main" class="ui-content">
+                <form action="" method="post">
+                    <label for="basic" class="ui-hidden-accessible">Nova senha:</label>
+                    <input type="text" name="name" id="login-password" value="" placeholder="Nova Senha"/>
+                    <label for="basic" class="ui-hidden-accessible">Confirme sua nova senha</label>
+                    <input type="text" name="name" id="login-password" value="" placeholder="Confirme sua nova senha"/>
+                    <a href="#popup-pass-reset" data-transition="slidedown" data-rel="dialog" data-role="button" data-theme="b">Alterar Senha</a>
+                    <a data-rel="back" data-transition="slidedown" data-role="button">Voltar</a>
+                </form>
+            </div>
+        </div>
+
+        <div data-role="page" id="history">
+            <div data-role="header">
+                <a data-rel="back" data-icon="back">Voltar</a>
+                <h1>Extrato</h1>
+                <a href="" data-icon="refresh">Atualizar</a>
+            </div>
+            <div data-role="main" class="ui-content">
+                <ul data-role="listview" data-filter="true" class="ui-collapsible-listview">
+                    <li>
+                        <div data-role="collapsible" data-inset="false" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right">
+                            <h3>
+                                Loja do Carlos
+                                <div class="ui-li-aside">
+                                    <h3>R$12,50</h3>
+                                    <p>(1 x R$12,50)</p>
+                                </div>
+                                <p>15/12/2014 - 19:45</p>
+                            </h3>
+                            <table data-role="table" data-inset="false" data-mode="reflow">
+                                <thead>
+                                    <tr>
+                                      <th>Nome da Loja:</th>
+                                      <th>Data:</th>
+                                      <th>Valor:</th>
+                                      <th>Parcelas:</th>
+                                      <th>Cartão:</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                      <td>Loja do Carlos</td>
+                                      <td>15/12/2014 - 19:45</td>
+                                      <td>R$12,50</td>
+                                      <td>1 x R$12,50</td>
+                                      <td>American Express xxxx-xxxx-xxxx-6532</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </li>
+                    <li>
+                        <div data-role="collapsible" data-inset="false" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right">
+                            <h3>
+                                Loja da Maria
+                                <div class="ui-li-aside">
+                                    <h3>R$79,99</h3>
+                                    <p>(5 x R$16,00)</p>
+                                </div>
+                                <p>15/12/2014 - 16:56</p>
+                            </h3>
+                            <table data-role="table" data-inset="false" data-mode="reflow">
+                                <thead>
+                                    <tr>
+                                      <th>Nome da Loja:</th>
+                                      <th>Data:</th>
+                                      <th>Valor:</th>
+                                      <th>Parcelas:</th>
+                                      <th>Cartão:</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                      <td>Loja da Maria</td>
+                                      <td>15/12/2014 - 16:56</td>
+                                      <td>R$79,99</td>
+                                      <td>5 x R$16,00</td>
+                                      <td>Visa 1567</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </li>
+                    <li>
+                        <div data-role="collapsible" data-inset="false" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right">
+                            <h3>
+                                Loja do João
+                                <div class="ui-li-aside">
+                                    <h3>R$38,50</h3>
+                                    <p>(3 x R$12,83)</p>
+                                </div>
+                                <p>15/12/2014 - 15:32</p>
+                            </h3>
+                            <table data-role="table" data-inset="false" data-mode="reflow">
+                                <thead>
+                                    <tr>
+                                      <th>Nome da Loja:</th>
+                                      <th>Data:</th>
+                                      <th>Valor:</th>
+                                      <th>Parcelas:</th>
+                                      <th>Cartão:</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                      <td>Loja do João</td>
+                                      <td>15/12/2014 - 15:32</td>
+                                      <td>R$38,50</td>
+                                      <td>3 x R$12,83</td>
+                                      <td>Visa 1567</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div data-role="page" id="my-cards">
+            <div data-role="header">
+                <a data-rel="back" data-icon="back">Voltar</a>
+                <h1>Meus Cartões</h1>
+                <a href="" data-icon="refresh">Atualizar</a>
+            </div>
+
+            <div data-role="main" class="ui-content">
+                <a href="#popup-add-card" data-role="button" data-icon="plus" data-transition="slideright" data-theme="b">Adicionar Cartão</a>
+                <ul data-role="listview" class="ui-collapsible-listview" data-inset="true">
+                    <li>
+                        <div data-role="collapsible" data-inset="false" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right">
+                            <h3>
+                                Visa 1567
+                                <p>Validade: 01/2017</p>
+                            </h3>
+                            <table data-role="table" data-inset="false" data-mode="reflow">
+                                <thead>
+                                    <tr>
+                                      <th>Bandeira:</th>
+                                      <th>Número:</th>
+                                      <th>Titular:</th>
+                                      <th>Validade:</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                      <td>Visa</td>
+                                      <td>xxxx-xxxx-xxxx-1567</td>
+                                      <td>Manuel Borba Gato</td>
+                                      <td>01/2017</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <a href="#popup-remove-card" data-role="button" data-icon="minus" data-transition="slidedown" data-rel="dialog" data-inset="false" data-theme="b">Remover</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div data-role="collapsible" data-inset="false" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right">
+                            <h3>
+                                American Express 6532
+                                <p>Validade: 05/2019</p>
+                            </h3>
+                            <table data-role="table" data-inset="false" data-mode="reflow">
+                                <thead>
+                                    <tr>
+                                      <th>Bandeira:</th>
+                                      <th>Número:</th>
+                                      <th>Titular:</th>
+                                      <th>Validade:</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                      <td>American Express</td>
+                                      <td>xxxx-xxxx-xxxx-6532</td>
+                                      <td>Manuel Borba Gato</td>
+                                      <td>05/2019</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <a href="#popup-remove-card" data-role="button" data-icon="minus" data-transition="slidedown" data-rel="dialog" data-theme="b">Remover</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div data-role="page" id="popup-remove-card">
+            <div data-role="main" class="ui-content">
+                <p>Deseja mesmo remover este cartão?</p>
+                <a data-rel="back" data-role="button">Não</a>
+                <a href="#my-cards" data-role="button" data-theme="b">Sim</a>
+            </div>
+        </div>
+
+        <div data-role="page" id="settings">
+            <div data-role="header">
+                <a data-rel="back" data-icon="back">Voltar</a>
+                <h1>Opções</h1>
+            </div>
+          
+            <div data-role="main" class="ui-content">
+            </div>
+        </div> 
+    </body>
+</html>

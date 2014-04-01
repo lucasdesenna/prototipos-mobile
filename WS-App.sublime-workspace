@@ -1,0 +1,613 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bac",
+				"background"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"bord",
+				"border-bottom"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"for",
+				"forward"
+			],
+			[
+				"new",
+				"newOrientation"
+			],
+			[
+				"Ro",
+				"RotateAroundPoint"
+			],
+			[
+				"vec",
+				"vector"
+			],
+			[
+				"rota",
+				"rotatedV"
+			],
+			[
+				"com",
+				"componentMag"
+			],
+			[
+				"ro",
+				"rotatedDir"
+			],
+			[
+				"De",
+				"deltaTime"
+			],
+			[
+				"ve",
+				"velocity"
+			],
+			[
+				"gr",
+				"grounded"
+			],
+			[
+				"add",
+				"AddForce"
+			],
+			[
+				"force",
+				"forceV"
+			],
+			[
+				"min",
+				"minThrustOutput"
+			],
+			[
+				"thru",
+				"thrustOutput"
+			],
+			[
+				"Thrust",
+				"ThrustOutputIncrement"
+			],
+			[
+				"da",
+				"dragV"
+			],
+			[
+				"m",
+				"magnitude"
+			],
+			[
+				"d",
+				"dragC"
+			],
+			[
+				"Trans",
+				"InverseTransformPoint"
+			],
+			[
+				"th",
+				"thrust"
+			],
+			[
+				"sp",
+				"speed"
+			],
+			[
+				"Update",
+				"UpdateSpeed"
+			],
+			[
+				"dra",
+				"dragV"
+			],
+			[
+				"thr",
+				"thrustV"
+			],
+			[
+				"lif",
+				"liftV"
+			],
+			[
+				"gra",
+				"gravityV"
+			],
+			[
+				"densi",
+				"densityTable"
+			],
+			[
+				"dens",
+				"density"
+			],
+			[
+				"re",
+				"RemoveEpsilon"
+			],
+			[
+				"clean",
+				"cleanStr"
+			],
+			[
+				"clea",
+				"cleanStr"
+			],
+			[
+				"prot",
+				"protected"
+			],
+			[
+				"pro",
+				"protected"
+			],
+			[
+				"L",
+				"LiftVector"
+			],
+			[
+				"Li",
+				"lift"
+			],
+			[
+				"Aer",
+				"Aerodynamics"
+			],
+			[
+				"g",
+				"gravity"
+			],
+			[
+				"time",
+				"timeoutLimit"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"crop",
+				"cropImage"
+			],
+			[
+				"cli",
+				"click"
+			],
+			[
+				"filter",
+				"filterList"
+			],
+			[
+				"_",
+				"_statusBar"
+			],
+			[
+				"pos",
+				"postURL"
+			],
+			[
+				"cono",
+				"console"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"status",
+				"statusReaders"
+			],
+			[
+				"targetTa",
+				"targetTableId"
+			],
+			[
+				"sta",
+				"statusBar"
+			],
+			[
+				"resize",
+				"resizeInputImage"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 19596,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/themes/default.css",
+			"settings":
+			{
+				"buffer_size": 20419,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Snippet: HTML - Input:password"
+			],
+			[
+				"HTML",
+				"Snippet: html"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"Snippet: ",
+				"Snippet: Getter-Setter"
+			],
+			[
+				"Snippet: ge",
+				"Snippet: Get Elements"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Lucas/Documents/Blazing Skies/Assets/Aerodynamics/FlightControls.js",
+		"/C/Users/Lucas/Documents/Blazing Skies/Assets/Aerodynamics/Aerodynamics.js",
+		"/C/Users/Lucas/Documents/Blazing Skies/Assets/Aerodynamics/Atmosphere.js",
+		"/C/Users/Lucas/Documents/Blazing Skies/Assets/Standard Assets/Scripts/General Scripts/DebuggerGUI.js",
+		"/C/Users/Lucas/Documents/Blazing Skies/Assets/Aerodynamics/Specs.js",
+		"/C/Users/Lucas/Desktop/VTX/WS Mobile/index.html",
+		"/C/Users/Lucas/AppData/Roaming/Sublime Text 2/Packages/User/Create-Mobile-Page.sublime-snippet",
+		"/C/Users/Lucas/AppData/Roaming/Sublime Text 2/Packages/HTML/html.sublime-snippet",
+		"/C/Users/Lucas/AppData/Roaming/Sublime Text 2/Packages/User/Setup-html5.sublime-snippet",
+		"/C/Users/Lucas/Documents/Blazing Skies/Assets/Aerodynamics/AeroData.js",
+		"/C/Users/Lucas/Documents/Blazing Skies/Assets/Aerodynamics/EnvData.js",
+		"/C/Users/Lucas/Documents/Blazing Skies/Assets/Aerodynamics/AtmoData.js",
+		"/C/Users/Lucas/Documents/Blazing Skies/Assets/Standard Assets/Scripts/General Scripts/FlightControls.js",
+		"/C/Users/Lucas/Documents/Blazing Skies/Assets/Standard Assets/Scripts/General Scripts/Aerodynamics.js",
+		"/C/Users/Lucas/AppData/Roaming/Sublime Text 2/Packages/User/Getter-Setter.sublime-snippet",
+		"/C/Users/Lucas/Documents/Blazing Skies/Assets/Standard Assets/Scripts/General Scripts/Aerodynamic.js",
+		"/C/Program Files/Eagle Dynamics/DCS World/MissionEditor/data/scripts/UnitPayloads/Su-27.lua",
+		"/C/Program Files (x86)/Unity/Editor/Data/Documentation/Documentation/Components/class-MeshCollider.html",
+		"/C/Program Files (x86)/Unity/Editor/Data/Documentation/Documentation/Manual/index.html",
+		"/C/Program Files (x86)/Unity/Editor/Data/Documentation/Documentation/ScriptReference/MonoBehaviour.html",
+		"/C/Users/Lucas/Desktop/VTX/qi/public/common/js/control_panel_builder.js",
+		"/C/Users/Lucas/Desktop/VTX/qi/public/common/js/control_panel.js",
+		"/C/Users/Lucas/Desktop/VTX/qi/public/common/css/control_panel.css",
+		"/C/Program Files/Eagle Dynamics/DCS World/MissionEditor/data/scripts/loadout.lua",
+		"/C/Users/Lucas/Saved Games/DCS/InputLayoutsTxt/Su-27/Logitech Extreme 3D Pro USB {AB07D280-8CFC-11e2-8002-444553540000}.html",
+		"/C/Users/Lucas/Desktop/VTX/qi/public/common/css/general.css",
+		"/C/Users/Lucas/Desktop/VTX/qi/public/common/js/area_selector.js",
+		"/C/Users/Lucas/Desktop/VTX/qi/public/common/js/client_manager.js",
+		"/C/Users/Lucas/Desktop/VTX/qi/public/common/js/client.js",
+		"/C/Users/Lucas/Desktop/VTX/qi/public/common/js/controller.js",
+		"/C/Users/Lucas/Desktop/search.php",
+		"/C/Users/Lucas/Desktop/header.php",
+		"/C/Users/Lucas/Desktop/style.css",
+		"/C/Users/Lucas/Desktop/index.php",
+		"/C/Users/Lucas/Desktop/VTX/qi/index.html",
+		"/C/Users/Lucas/Desktop/VTX/qi/public/login.html",
+		"/C/Users/Lucas/Desktop/VTX/qi/public/common/js/client_builder.js",
+		"/C/Users/Lucas/Desktop/VTX/qi/stores/config/dafiti.json",
+		"/C/Users/Lucas/Desktop/VTX/qi/stores/config/netshoes.json",
+		"/C/Users/Lucas/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Lucas/Desktop/VTX/qi/public/common/css/client_manager.css",
+		"/C/Users/Lucas/Desktop/VTX/qi/public/common/js/async.js",
+		"/C/Users/Lucas/Desktop/VTX/qi/public/common/js/autocomplete.js",
+		"/C/Users/Lucas/Desktop/VTX/qi/public/common/js/cookies.js",
+		"/C/Users/Lucas/Desktop/VTX/qi/public/common/js/inspector.js",
+		"/C/Users/Lucas/Desktop/VTX/qi/public/common/js/jquery-ui.js",
+		"/C/Users/Lucas/Desktop/VTX/qi/public/common/js/statusbar.js",
+		"/C/Users/Lucas/Desktop/VTX/qi/public/client.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"",
+			"C:\\Users\\Lucas\\Desktop\\VTX\\qi\\public\\common\\js",
+			"<open files>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"<a href=\"index.html\" data-icon=\"arrow-u\">Sair</a>",
+			"<a href=\"#my-account\" data-icon=\"home\" >Minha Pochete</a>",
+			"Nome da Loja",
+			"<a href=\"#settings\" data-icon=\"gear\">Opções</a>",
+			"AddForce(",
+			"force",
+			"ForceToDeltaSpace",
+			"SetThrust",
+			"function",
+			" GetDragV",
+			"GetLiftV",
+			"GetGravityV",
+			"GetThrustV",
+			"rigid",
+			"UpdateVelocity",
+			"velocity",
+			"gravitationalAcceleration",
+			"target.GetComponent(Aerodynamics)",
+			"target.",
+			"test_plane",
+			"Math.pow",
+			"thrustForce",
+			"maxThrustForce",
+			"minThrustForce",
+			"currentThrustForce",
+			"	",
+			"if ",
+			"resize",
+			"createTableContr",
+			"createTable",
+			"resize",
+			"resizeI",
+			"clearIn",
+			"clearA",
+			"embeds",
+			"iframe",
+			"clearAll",
+			"inputImage",
+			"Falha ao obter lista",
+			"setupDependency",
+			"if (",
+			"for (",
+			"if (",
+			"if(",
+			"Há apenas",
+			"lucas",
+			"tipo",
+			"createTableR",
+			"extraI",
+			", extraInfo",
+			"createTableResults",
+			"refreshT",
+			"jquery",
+			"targetTableId",
+			"refreshTa",
+			"callRefreshTablesRequestReviewer",
+			"callRefreshTablesRequestReviewer()",
+			"createTableC",
+			"createTableResults",
+			"createTableC",
+			"refresh",
+			"refreh",
+			"createTableControls",
+			".controls",
+			"inputs",
+			"controls",
+			"createTableControls",
+			"controls"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"<a href=\"#my-account\" data-icon=\"home\" data-transition=\"slidefade\">Minha Pochete</a>",
+			"<a href=\"#my-account\" data-icon=\"home\" data-transition=\"slideright\">Minha Pochete</a>",
+			"<a href=\"#my-account\" data-icon=\"home\" data-transition=\"slidedown\">Minha Pochete</a>",
+			"Emissor",
+			"<a href=\"#my-account\" data-icon=\"home\">Minha Pochete</a>",
+			"return ",
+			"turnRate",
+			"ForceToVelocity",
+			"SetThrustOutput",
+			"private function",
+			"AddDrag",
+			"AddLift",
+			"AddGravity",
+			"AddThust",
+			"Move",
+			"UpdateSpeed",
+			"speed",
+			"gAccel",
+			"script",
+			"target.GetComponent(",
+			"GetComponent(",
+			"target",
+			"Mathf.Pow",
+			"thrust",
+			"maxThrust",
+			"minThrust",
+			"thrustForce",
+			"    ",
+			"if",
+			"refImg",
+			"inputImage",
+			"if(",
+			"for(",
+			"if(",
+			"if (",
+			"selector",
+			".blueBar",
+			"blueBar",
+			"statusReaders",
+			"statusBar"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 19596,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7600,
+								7600
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/themes/default.css",
+					"settings":
+					{
+						"buffer_size": 20419,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20013,
+								20013
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 8594.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 341.0,
+	"status_bar_visible": true
+}
